@@ -1,0 +1,12 @@
+# Binaries and test artifacts
+/bin/
+*.exe
+*.test
+/tmp/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Zensical site build output
+/site/

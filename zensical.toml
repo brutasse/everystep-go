@@ -1,0 +1,21 @@
+[project]
+site_name = "everystep"
+site_url = "https://brutasse.github.io/everystep-go/"
+site_description = "Durable workflow execution in Go."
+repo_url = "https://github.com/brutasse/everystep-go"
+nav = [
+  { "Home" = "index.md" },
+  "model.md",
+  "workers.md",
+  "errors.md",
+  "ui.md",
+  "observability.md",
+]
+
+[project.theme]
+features = [
+  "navigation.instant",
+  "toc.follow",
+  "content.action.edit",
+  "content.action.view",
+]
